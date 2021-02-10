@@ -1,0 +1,13 @@
+habilidades:[
+   { nombre: Javascript,
+    porcentaje: 45
+    },
+    { nombre:CSS,
+        porcentaje: 45
+
+    }, {
+        nombre:HTML,
+        porcentaje: 45
+    }
+
+]
