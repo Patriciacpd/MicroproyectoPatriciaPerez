@@ -32,7 +32,7 @@ function iniciar(){
     
    function carrusel() {
   
-    imagenes= ["img/ima.jpg","img/portafolio-creativo.jpg","img/unnamed.jpg"];
+    imagenes= ["img/imagen1.jpg","img/imagen2.jpg","img/imagen3.jpg"];
     i=0;
     window.setInterval(function(){
         document.getElementById("showcase").style.backgroundImage="url('"+imagenes[i]+"')";
