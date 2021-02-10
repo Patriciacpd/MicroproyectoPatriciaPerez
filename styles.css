@@ -121,5 +121,7 @@ margin: 5px;
 
 #derecha{
     background-color: #b388aa69;
+    color: black;
     opacity:0.5;
+    padding: 20px;
 }
