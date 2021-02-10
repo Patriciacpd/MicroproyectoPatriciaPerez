@@ -17,7 +17,11 @@ var datos_skill = [
     "habilidad": "85"
     }
     ];
-    
+function iniciar(){
+	cargar();
+	carrusel();
+} 
+
     function cargar(){
     var div = document.getElementById("skills");
     datos_skill.forEach((e)=>{
@@ -26,4 +30,13 @@ var datos_skill = [
     })
     }
     
-   
+   function carrusel() {
+  
+    imagenes= ["img/ima.jpg","img/portafolio-creativo.jpg","img/unnamed.jpg"];
+    i=0;
+    window.setInterval(function(){
+        document.getElementById("showcase").style.backgroundImage="url('"+imagenes[i]+"')";
+        i++;
+        if(i>2) i=0;
+    },8000);
+}
