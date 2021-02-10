@@ -126,12 +126,14 @@ margin: 5px;
 }
 
 .ski {
+    
     position: relative; 
     width: 200px;
     border: 1px solid silver;
     padding: 2px;
     }
 .ski .barra {
+    
     display: block;
     position: relative;
     background: pink;
@@ -141,6 +143,7 @@ margin: 5px;
     line-height: 2em;
     }
 .ski .barra span {
+ 
     position: absolute; left: 1em;
     padding-bottom: 2.5rem;
     }
@@ -202,4 +205,11 @@ button {
 
 form ul{
     list-style: none;
+}
+
+#contact{
+	text-align: center;
+}
+form{
+	text-align: left;
 }
